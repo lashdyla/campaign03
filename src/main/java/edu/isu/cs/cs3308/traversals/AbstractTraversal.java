@@ -12,7 +12,7 @@ public abstract class AbstractTraversal<E> implements TreeTraversal<E>
 	{
 		if (tree == null)
 		{
-			throw new IllegalArgumentException("Tree is null");
+			throw new IllegalArgumentException("Null tree");
 		}
 		this.tree = tree;
 	}
